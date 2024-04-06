@@ -1,0 +1,16 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: UweSieber.UsbTreeView
+PackageVersion: 4.2.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: UsbTreeView.exe
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://www.uwe-sieber.de/files/UsbTreeView_x64.zip
+  InstallerSha256: 679b5b28cb8e762d56931245b4db18da95e6eb04518366a73207772d79fd108e
+ManifestType: installer
+ManifestVersion: 1.6.0
